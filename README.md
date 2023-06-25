@@ -6,4 +6,7 @@ Projeto Integrador - how6
   - Video apresentação do Prototipo
 
 - Fonte
-  - Código Zipado, contendo o início do Projeto (sem comentário)r
+  - Código Zipado, contendo o início do Projeto (sem comentário)
+
+- Documentação
+  - Arquivo PDF (FORUM TEMATICO - HOW6 - ALEXANDRE FRANCISCO DE SOUZA - etapa 1.pdf), Trabalho academico.
