@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grafite"
+    tools:context=".SplashLogin">
+
+    <TextView
+        android:id="@+id/logo_scriptbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/scriptbot"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputUser"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/baseline_phonelink_ring_24"
+        android:ems="10"
+        android:hint="@string/usu_rio"
+        android:inputType="text"
+        android:textColor="#5CAC24"
+        android:textColorHint="#5CAC24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_scriptbot"
+        android:drawableEnd="@drawable/baseline_phonelink_ring_24" />
+
+    <EditText
+        android:id="@+id/inputSenha"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="text"
+        android:password="true"
+        android:textColor="#5CAC24"
+        android:textColorHint="#5CAC24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputUser"
+        tools:ignore="Deprecated,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/entrar"
+        android:textAllCaps="true"
+        android:textColor="#1E1E1E"
+        android:textSize="17sp"
+        app:backgroundTint="#05EB00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputSenha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/smallbusiness"
+        android:textColor="#DDDDDD"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_scriptbot" />
+
+    <TextView
+        android:id="@+id/redirectcriarConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="CRIAR CONTA!"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

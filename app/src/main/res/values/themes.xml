@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ScriptBotCalculoDeÁrea" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Lavand</item>
+        <item name="colorPrimaryVariant">@color/Lavand</item>
+    </style>
+
+    <style name="Theme.ScriptBotCalculoDeÁrea" parent="Base.Theme.ScriptBotCalculoDeÁrea" />
+</resources>

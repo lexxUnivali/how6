@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ScriptBot Cálculo de Área</string>
+    <string name="smallbusiness">SmallBusiness</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="scriptbot">ScriptBOT</string>
+    <string name="x">X</string>
+    <string name="externo">Externo</string>
+    <string name="minhas_cota_es">MINHAS COTAÇÕES</string>
+    <string name="meu_perfil">MEU PERFIL</string>
+    <string name="compartilhar">COMPARTILHAR</string>
+    <string name="or_amentos">ORÇAMENTOS</string>
+    <string name="or_amentos2">ORÇAMENTOS</string>
+    <string name="or_amento_pintura">ORÇAMENTO | Pintura</string>
+    <string name="cadastro_de_cliente">CADASTRO DE CLIENTE</string>
+    <string name="igual">=</string>
+    <string name="altura">Altura</string>
+    <string name="endere_o">Endereço:</string>
+    <string name="ambiente">AMBIENTE</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="resultado2">RESULTADO</string>
+    <string name="usu_rio">Usuário</string>
+    <string-array name="Cores">
+        <item>Branco</item>
+        <item>Cinza</item>
+        <item>Preto</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Vermelho</item>
+    </string-array>
+</resources>
